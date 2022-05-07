@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WebApp_GetImage_Error_InvalidImage" xml:space="preserve">
+    <value>Invalid Inspection Id or Image Id</value>
+  </data>
+  <data name="WebApp_GetLenderLogo_Error_Inspection_Mismatch" xml:space="preserve">
+    <value>Inspection ID mismatch, please try again</value>
+  </data>
+  <data name="WebApp_GetLenderLogo_Error_Lender_Mismatch" xml:space="preserve">
+    <value>Lender mismatch . please try again.</value>
+  </data>
+  <data name="WebApp_GetLenderLogo_Lender_Company_NotFound" xml:space="preserve">
+    <value>Lender company details not found</value>
+  </data>
+  <data name="WebApp_GetLenderLogo_UserNotFound" xml:space="preserve">
+    <value>User Not Found</value>
+  </data>
+  <data name="WebApp_InspectionDetails_NotFound" xml:space="preserve">
+    <value>Inspection Details not found</value>
+  </data>
+  <data name="WebApp_Inspections_SaveImage_Error_EmptyLocation" xml:space="preserve">
+    <value>Lattitude and Longitude value is required</value>
+  </data>
+  <data name="WebApp_Inspections_SaveImage_Error_InvalidLocation" xml:space="preserve">
+    <value>The Location is invalid. Please try again after sometime.</value>
+  </data>
+  <data name="WebApp_Login_Error_IncorrectInspectionIdOrEmail" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="WebApp_Login_Error_InvalidInpsection" xml:space="preserve">
+    <value>Inspection ID not found</value>
+  </data>
+  <data name="WebApp_Login_Error_OTPExpired" xml:space="preserve">
+    <value>The One Time Pin entered is expired. Please try again</value>
+  </data>
+  <data name="WebApp_Login_Error_VerifyOTP" xml:space="preserve">
+    <value>The One Time Pin  you entered is invalid. Please enter the correct One Time Pin</value>
+  </data>
+  <data name="WebApp_Login_LenderLogo_NotFound" xml:space="preserve">
+    <value>Lender logo not found</value>
+  </data>
+  <data name="WebApp_Processlist_Error_InvalidApplcationOrEmail" xml:space="preserve">
+    <value>Inspection ID mismatch, please try again</value>
+  </data>
+  <data name="WebApp_Processlist_Error_NonOwnerNotAllowedMessage" xml:space="preserve">
+    <value>Your inspection cannot be processed. The lender selected accepts only private owners.</value>
+  </data>
+  <data name="WebApp_ResendOTP_Error" xml:space="preserve">
+    <value>The One Time Pin already sent to your email or  mobile number. Please verify.</value>
+  </data>
+  <data name="WebApp_SaveImages_EditInspection_InspectionProgress_Error_InvalidInspectionIdOrImageId" xml:space="preserve">
+    <value>Invalid inspection id / image id</value>
+  </data>
+  <data name="WebApp_SendOpenInspection_Error_NoInspectionEmail" xml:space="preserve">
+    <value>No inspections are associated with this email or phone number</value>
+  </data>
+  <data name="WebApp_SubmitInspection_Error_Image_Not_Found" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="WebApp_SubmitInspection_Error_ProcesslistNotCompleted" xml:space="preserve">
+    <value>Inspection not completed, please check the process list screen</value>
+  </data>
+  <data name="WebApp_SubmitInspection_Success_SaveandExit" xml:space="preserve">
+    <value>Inspection details are saved successfully</value>
+  </data>
+  <data name="WebApp_SubmitInspection_Sucess_Inspection_Submission" xml:space="preserve">
+    <value>Inspection Submitted Successfully</value>
+  </data>
+  <data name="WebApp_UpdateDocumentStatus _InvalidMake" xml:space="preserve">
+    <value>Invalid Make</value>
+  </data>
+  <data name="WebApp_UpdateDocumentStatus _InvalidModel" xml:space="preserve">
+    <value>Invalid Model</value>
+  </data>
+  <data name="WebApp_UpdatedocumentStatus_Error_DL_ForceUpload" xml:space="preserve">
+    <value>Your Driving Licence photo is not matched with selfie. please click Retry to capture Driving Licence again or Click Submit to upload.</value>
+  </data>
+  <data name="WebApp_UpdatedocumentStatus_Error_DL_Retry" xml:space="preserve">
+    <value>Your Driving Licence photo is not matched with selfie.  please click Retry to capture Driving Licence again.</value>
+  </data>
+  <data name="WebApp_UpdateDocumentStatus_Error_ImageNotUploaded" xml:space="preserve">
+    <value>Please , upload all images of {0} to continue</value>
+  </data>
+  <data name="WebApp_UpdatedocumentStatus_Error_Invalid_Custom_Relation" xml:space="preserve">
+    <value>Invalid Custom Relation</value>
+  </data>
+  <data name="WebApp_UpdateMotorDatas_Error_Image_Not_Found" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="WebApp_UpdateMotorDatas_Success" xml:space="preserve">
+    <value>Motor details are successfully updated.</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>895aa5a1-f880-4134-98cf-7b0c3728b7d9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+    <Configurations>Debug;Release;Dev;Sta;Preprod</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="4.0.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="System.Text.Json" Version="6.0.0" />
+    <PackageReference Include="Twilio" Version="5.72.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Authorization\Common.Authorization.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.AzureBlobUtility\Common.AzureBlobUtility.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.EventMessages\Common.EventMessages.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Extensions\Common.Extensions\Common.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Messages\Common.Messages\Common.Messages.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Notifications\Common.Notifications.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Payments\Common.Payments.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Validations\Common.Validations.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BrokerInvite_Error_EmailAlreadyActivated" xml:space="preserve">
+    <value>Email already activated</value>
+  </data>
+  <data name="BrokerInvite_Error_InvalidEmailVerificationLink" xml:space="preserve">
+    <value>Email does not exist</value>
+  </data>
+  <data name="BrokerUsersList_Error_Required" xml:space="preserve">
+    <value>BrokerUsers List required</value>
+  </data>
+  <data name="CompanyDetails_Error_CompanyNameExists" xml:space="preserve">
+    <value>Company entered already exists</value>
+  </data>
+  <data name="CompanyDetails_Error_NotFound" xml:space="preserve">
+    <value>Company Details not found</value>
+  </data>
+  <data name="CompanyGuid_Error_Required" xml:space="preserve">
+    <value>CompanyGuid is required</value>
+  </data>
+  <data name="CompanyNotMapped_Error" xml:space="preserve">
+    <value>Company not mapped</value>
+  </data>
+  <data name="DeafultBrokerDetails_Error_Required" xml:space="preserve">
+    <value>DefaultBrokerDetails reuired</value>
+  </data>
+  <data name="DefaultEmail_Invalid" xml:space="preserve">
+    <value>Default Email Invalid</value>
+  </data>
+  <data name="LendersList_NotFound" xml:space="preserve">
+    <value>Lenders not found</value>
+  </data>
+  <data name="LenderUsersList_Error_Required" xml:space="preserve">
+    <value>LenderUsers List Required</value>
+  </data>
+  <data name="Lender_Error_LenderNameExists" xml:space="preserve">
+    <value>Lender name entered already exists</value>
+  </data>
+  <data name="LoggedinUser_Error_RolesNotAssigned" xml:space="preserve">
+    <value>Roles not assigned for loggedin user</value>
+  </data>
+  <data name="Login_Error_AccountLocked" xml:space="preserve">
+    <value>Your account is locked. Please unlock your account and try again</value>
+  </data>
+  <data name="Login_Error_AccountNotActivated" xml:space="preserve">
+    <value>Activate your email to continue. Activation link sent to your registered email.</value>
+  </data>
+  <data name="Login_Error_CompanyNotAssociated" xml:space="preserve">
+    <value>You are not associated with any company. Please contact your admin.</value>
+  </data>
+  <data name="Login_Error_CompanyNotMapped" xml:space="preserve">
+    <value>Company not mapped. Please contact your admin</value>
+  </data>
+  <data name="Login_Error_EmailNotRegistered" xml:space="preserve">
+    <value>Email not registered. Please sign up</value>
+  </data>
+  <data name="Login_Error_IncorrectEmailOrPassword" xml:space="preserve">
+    <value>The email or password is incorrect</value>
+  </data>
+  <data name="Login_Verify_OTP" xml:space="preserve">
+    <value>The OTP you entered is invalid. Please enter the correct OTP</value>
+  </data>
+  <data name="Register_EmailSuccessfullyVerified" xml:space="preserve">
+    <value>Email verification successful! Please login to complete your profile</value>
+  </data>
+  <data name="Register_Error_EmailAlreadyActivated" xml:space="preserve">
+    <value>Email already activated</value>
+  </data>
+  <data name="Register_Error_EmailVerified" xml:space="preserve">
+    <value>Email already activated. Login with your email and password.</value>
+  </data>
+  <data name="Register_Error_InvalidEmailVerificationLink" xml:space="preserve">
+    <value>Invalid link. Please try again with valid link</value>
+  </data>
+  <data name="Register_Error_LinkRevoked" xml:space="preserve">
+    <value>Your link is revoked by the broker. Please contact your broker.</value>
+  </data>
+  <data name="Register_Error_ValidateResetPasswordLinkGeneratedTime" xml:space="preserve">
+    <value>Please try again after 30 seconds.</value>
+  </data>
+  <data name="Registration_Error_EmailExists" xml:space="preserve">
+    <value>Email already exists. Please login with your credentials</value>
+  </data>
+  <data name="Registration_Error_EmailNotExists" xml:space="preserve">
+    <value>The email is incorrect</value>
+  </data>
+  <data name="Registration_Error_MailAlreadySent" xml:space="preserve">
+    <value>Please try again after 30 seconds.</value>
+  </data>
+  <data name="Registration_InvitedUser_Error_EmailNotExists" xml:space="preserve">
+    <value>Invalid email. Please contact your admin</value>
+  </data>
+  <data name="Registration_SignUp_PasswordAlreadyAssigned" xml:space="preserve">
+    <value>You already signedup with the email ({0}).</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Email registered successfully.</value>
+  </data>
+  <data name="ReserPassword_Error_InvalidEmail" xml:space="preserve">
+    <value>You have entered an invalid e-mail address.Please try again.</value>
+  </data>
+  <data name="ResetPassword_Error_EmailNotRegistered" xml:space="preserve">
+    <value>Email ID entered is not registered with verimoto</value>
+  </data>
+  <data name="ResetPassword_Error_InvalidLink" xml:space="preserve">
+    <value>Invalid link</value>
+  </data>
+  <data name="ResetPassword_Error_UserOldCredential" xml:space="preserve">
+    <value>You cannot use same password. Please try again with different password.</value>
+  </data>
+  <data name="SaveUserProfile_Error_EmailExists" xml:space="preserve">
+    <value>Email already exists. Please try again with different email</value>
+  </data>
+  <data name="SaveUserProfile_Error_InvalidUser" xml:space="preserve">
+    <value>Invalid user</value>
+  </data>
+  <data name="SaveUserProfile_Error_NewPasswordRequired" xml:space="preserve">
+    <value>New Password required</value>
+  </data>
+  <data name="SaveUserProfile_Error_OldPasswordNotMatch" xml:space="preserve">
+    <value>Old Password not match</value>
+  </data>
+  <data name="SaveUserProfile_Error_OldPasswordRequired" xml:space="preserve">
+    <value>Old Password required</value>
+  </data>
+  <data name="SaveUserProfile_Error_PasswordNotMatch" xml:space="preserve">
+    <value>OldPassword and NewPassword cannot be same</value>
+  </data>
+  <data name="SupportTeamUsersList_Error_Required" xml:space="preserve">
+    <value>SupportTeamUsers List required</value>
+  </data>
+  <data name="SupportTeamUsers_NotFound" xml:space="preserve">
+    <value>SupportTeam Users not found</value>
+  </data>
+  <data name="UserGuid_Required" xml:space="preserve">
+    <value>UserGuid Required</value>
+  </data>
+  <data name="Users_NotFound" xml:space="preserve">
+    <value>Users not found</value>
+  </data>
+  <data name="User_Invalid" xml:space="preserve">
+    <value>Invalid User</value>
+  </data>
+  <data name="ValidateUserEmail_Error_EmailExists" xml:space="preserve">
+    <value>Entered Email is already registered as {0}. Please try again with different email.</value>
+  </data>
+  <data name="ValidateUser_Error_DefaultEmailExist" xml:space="preserve">
+    <value>Default Email should be present in users list</value>
+  </data>
+  <data name="VerifyOTP_Error_OTPExpired" xml:space="preserve">
+    <value>OTP expired. Please try agin with new otp</value>
+  </data>
+  <data name="VerifyOTP_Error_Relogin" xml:space="preserve">
+    <value>Please login with password and then request for OTP</value>
+  </data>
+</root>

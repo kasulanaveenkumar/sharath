@@ -1,0 +1,162 @@
+@font-face {
+    font-family: customBoldFont;
+    src: url(montserrat-regular.ttf)
+}
+
+body {
+    margin: 0px;
+    font-family: customBoldFont;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+:root {
+    --primary: #2bb772;
+    --warning: #f8c135;
+    --error: #ff0000;
+    --verifyText: #00d99e;
+    --warningText: #f8c135;
+}
+
+.logo {
+    height: 40px;
+    padding: 0 auto;
+    /*margin-left: 76px;
+    margin-top: 29px;*/
+}
+
+.report-heading {
+    width: 651px;
+    height: 200px;
+    margin: 20px 0 20px;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--interface-opposite);
+}
+
+.lender-reference-content {
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.jumbotron {
+    padding: 2rem 2rem !important;
+    background-color: #f1f8f8;
+}
+
+.inspection-detail-title {
+    font-size: 14px;
+}
+
+.inspection-detail-content {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.asset-card {
+    border: 2px solid #2bb772;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background: #fff;
+}
+
+.asset-card-warning {
+    border: 2px solid #f8c135;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: #fffafa;
+}
+
+.asset-title {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.asset-text {
+    font-size: small;
+}
+
+.header-title {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.header-title-icon {
+    float: right;
+    width: 40px;
+}
+
+.img-location {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px
+}
+
+.footer-heading {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer-content {
+    line-height: 30px;
+}
+
+.footer-notice {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.status-icon {
+    float: right;
+    width: 21px;
+}
+
+.identity-image {
+    border-radius: 10px;
+    width: 362px;
+    z-index: 1;
+    margin-top: -333px;
+    margin-left: 84px;
+}
+
+.verified-text {
+    color: var(--verifyText);
+    /* color:#00d99e; */
+    font-weight: 600;
+}
+
+.warning-text {
+    color: var(--warningText);
+    font-weight: 600;
+}
+
+.row-space {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.data-space {
+    padding-right: 15px;
+}
+
+.fontnormal {
+    font-family: 'Lucida Sans Unicode';
+    font-style: normal;
+    color: #565051;
+}

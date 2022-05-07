@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Configurations>Debug;Release;Dev;Sta;Preprod</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="39.74.0" />
+    <PackageReference Include="Twilio" Version="5.72.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Messages\Common.Messages\Common.Messages.csproj" />
+    <ProjectReference Include="..\Common.Validations\Common.Validations.csproj" />
+  </ItemGroup>
+
+</Project>

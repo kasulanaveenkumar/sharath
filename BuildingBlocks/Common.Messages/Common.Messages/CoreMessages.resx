@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activities_NotFound" xml:space="preserve">
+    <value>Activities not found</value>
+  </data>
+  <data name="Application_Created" xml:space="preserve">
+    <value>Inspection created successfully</value>
+  </data>
+  <data name="B2BWebHook_Error_InvalidId" xml:space="preserve">
+    <value>Invalid WebHook Id</value>
+  </data>
+  <data name="B2BWebHook_Error_WebHooksNotAvailable" xml:space="preserve">
+    <value>WebHooks not available</value>
+  </data>
+  <data name="CompanyGuid_Required" xml:space="preserve">
+    <value>CompanyGuid is required</value>
+  </data>
+  <data name="CompanyName_Exists" xml:space="preserve">
+    <value>Company name already exists.</value>
+  </data>
+  <data name="DVSCheck_Accepted_Msg" xml:space="preserve">
+    <value>DVS is Up &amp; Accepted.</value>
+  </data>
+  <data name="DVSCheck_Error_PingFailed" xml:space="preserve">
+    <value>DVS is down. Please try again later.</value>
+  </data>
+  <data name="DVSCheck_Rejected_Msg" xml:space="preserve">
+    <value>DVS is Up &amp; Rejected.</value>
+  </data>
+  <data name="EditInspection_ActivityLogs_NotFound" xml:space="preserve">
+    <value>Activity Logs not found</value>
+  </data>
+  <data name="EditInspection_InspectionProgress_Error_InvalidInspectionIdOrImageId" xml:space="preserve">
+    <value>Invalid inspection id / image id</value>
+  </data>
+  <data name="EditInspection_Reminder_Error_NoPendingDocs" xml:space="preserve">
+    <value>There are no pending documents for this inspection. Please check document status.</value>
+  </data>
+  <data name="EditInspection_Reminder_Error_NoRejectedDocs" xml:space="preserve">
+    <value>There are no rejected documents for this inspection. Please check document status.</value>
+  </data>
+  <data name="EditInspection_Update_Validate_ApplicationStatus" xml:space="preserve">
+    <value>You cannot Edit this inspection now. Current Status is {0}</value>
+  </data>
+  <data name="GetImageData_Error_InspectionId_ImageId" xml:space="preserve">
+    <value>Inspection Id and Image Id Required</value>
+  </data>
+  <data name="ImageId_Error_Required" xml:space="preserve">
+    <value>Image Id required</value>
+  </data>
+  <data name="InspectionGuid_Error_NotFound" xml:space="preserve">
+    <value>InspectionGuid required</value>
+  </data>
+  <data name="InspectionGuid_Invalid" xml:space="preserve">
+    <value>Invalid Inspection Guid</value>
+  </data>
+  <data name="InspectionId_Error_Required" xml:space="preserve">
+    <value>Inspection Id required</value>
+  </data>
+  <data name="Inspections_Cancelled" xml:space="preserve">
+    <value>Inspection cancelled successfully</value>
+  </data>
+  <data name="Inspections_Error_InvalidId" xml:space="preserve">
+    <value>Invalid Inspection Id</value>
+  </data>
+  <data name="Inspections_Error_InvalidImageId" xml:space="preserve">
+    <value>Invalid Image Id</value>
+  </data>
+  <data name="Inspections_Error_InvalidInspectionIdOrImageId" xml:space="preserve">
+    <value>Invalid inspection id / image id</value>
+  </data>
+  <data name="Inspections_Error_ZeroInspectionId" xml:space="preserve">
+    <value>InspectionId cannot be zero</value>
+  </data>
+  <data name="Inspections_SaveImage_Error_EmptyLocation" xml:space="preserve">
+    <value>Lattitude and Longitude value is required</value>
+  </data>
+  <data name="Inspections_SaveImage_Error_InvalidLocation" xml:space="preserve">
+    <value>The Location is invalid. Please try again after sometime.</value>
+  </data>
+  <data name="Inspection_InvalidPermissionAccess" xml:space="preserve">
+    <value>You don't have permission to access this inspection</value>
+  </data>
+  <data name="LenderConfigurations_Invalid" xml:space="preserve">
+    <value>Invalid Lender Configurations</value>
+  </data>
+  <data name="LenderConfigurations_NotFound" xml:space="preserve">
+    <value>Lender Configurations not found</value>
+  </data>
+  <data name="Notifications_NotFound" xml:space="preserve">
+    <value>Notifications not found</value>
+  </data>
+  <data name="ReviewInspection_MoveImage_Error_CheckApplicationStatus" xml:space="preserve">
+    <value>You cannot move the image as the inspection status is in {0}</value>
+  </data>
+  <data name="ReviewInspection_MoveImage_Error_DestinationImageNotFound" xml:space="preserve">
+    <value>Destination Image not found</value>
+  </data>
+  <data name="ReviewInspection_MoveImage_Error_InvalidImageDetails" xml:space="preserve">
+    <value>Invalid Image Details</value>
+  </data>
+  <data name="ReviewInspection_MoveImage_Error_SourceImageNotFound" xml:space="preserve">
+    <value>Source Image not found</value>
+  </data>
+  <data name="SendSubmissonReport_Error_ReportEmailNotConfigured" xml:space="preserve">
+    <value>Report Email not configured. Please contact Admin.</value>
+  </data>
+</root>
